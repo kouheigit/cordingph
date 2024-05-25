@@ -6,7 +6,7 @@ function twoSum($nums,$target)
     echo $target;
 }
 
-$nums = 3;
-$target = 9;
+$nums = [10,11,12,13];
+$target = "これはターゲット";
 $result1 = twoSum($nums,$target);
 echo $result1;
