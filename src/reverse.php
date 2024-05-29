@@ -1,4 +1,7 @@
 <?php
+function reverse(){
+    
+}
 /*
 function isPalindrome($num) {
     // 数値を文字列に変換
