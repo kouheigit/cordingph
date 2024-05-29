@@ -1,5 +1,15 @@
 <?php
-
+function twoSum($num,$target){
+    for($i=0; $i < count($num); $i++){
+        echo $num[$i];
+    }
+    echo $target;
+}
+$num = [100,200,300,400];
+$target = "ナメック";
+$result = twoSum($num,$target);
+echo $result;
+/*
 function twoSum($num,$target)
 {
     //countでの出力
@@ -12,4 +22,5 @@ function twoSum($num,$target)
 $num = [10,11,12,13];
 $target = "これは配列の出力結果です";
 $result1 = twoSum($num,$target);
-echo $result1;
+echo $result1;*/
+?>
