@@ -1,4 +1,5 @@
 <?php
+/*
 function isPalindrome($num) {
     // 数値を文字列に変換
     $str = strval($num);
@@ -24,4 +25,5 @@ $result2 = isPalindrome($num2);
 print_r($result1); // false
 echo "\n";
 print_r($result2); // true
+*/
 ?>
