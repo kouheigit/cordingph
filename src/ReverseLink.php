@@ -1,8 +1,8 @@
 <?php
-function ReverseLing(array $int){
+function ReverseLink(array $int){
     $reverse = array_reverse($int);
-    echo $reverse;
+    print_r($reverse);
 }
 $val = [1,2,3,4,5];
-$result = ReverseLing($val);
+$result = ReverseLink($val);
 print_r($result);
