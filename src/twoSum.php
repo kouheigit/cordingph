@@ -9,6 +9,7 @@ function twoSum($nums, $target) {
         $complement = $target - $nums[$i];
 
         // 補完数値が連想配列のキーとして存在するかチェック
+        //
         if (isset($map[$complement])) {
             // 存在する場合、解を返す
             return [$map[$complement], $i];
