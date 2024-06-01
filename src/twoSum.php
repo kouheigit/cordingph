@@ -10,13 +10,13 @@ function twoSum($nums, $target) {
 
         // 補完数値が連想配列のキーとして存在するかチェック
         //
-        /*
+
         if (isset($map[$complement])) {
             // 存在する場合、解を返す
 
             return [$map[$complement], $i];
 
-        }*/
+        }
 
         // 連想配列に値とそのインデックスを保存
         $map[$nums[$i]] = $i;
