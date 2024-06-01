@@ -3,9 +3,9 @@ class twoSum{
     public function Sum(array $num){
         $sum = 0;
         for($i=0; $i<count($num); $i++){
-            $sum = sum + $num[$i];
+            $sum = $sum + $num[$i];
         }
-        echo $sum;
+        echo $sum;//配列の合計を調べた
     }
 }
 
