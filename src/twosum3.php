@@ -6,7 +6,7 @@ class twoSum3{
         for($i=0; $i<count($num); $i++){
            $sum =  $target - $num[$i];
            if(isset($map[$sum])){
-               return [$map[$sum], $i];
+              // return [$map[$sum], $i];
            }
         }
 
