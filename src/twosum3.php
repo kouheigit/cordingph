@@ -10,16 +10,16 @@ class twoSum3{
            if(isset($map[$sum])) {
                return [$map[$sum], $i];
            }
-
+            $map[$num[$i]] = $i;
         }
-
+        return[];
     }
 }
 $twoSum3 = new twoSum3();
 $target = 11;
 $num = [3,4,5,6];
 $answer = $twoSum3->method($target,$num);
-echo $answer;
+print_r($answer);
 
 
 /*$answer =$twoSum3->method([3,4,5,4]);
