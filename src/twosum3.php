@@ -4,10 +4,13 @@ class twoSum3{
     public function method($target,array $num){
         $map = [];
         for($i=0; $i<count($num); $i++){
+
            $sum =  $target - $num[$i];
-           if(isset($map[$sum])){
-              // return [$map[$sum], $i];
+
+           if(isset($map[$sum])) {
+               return [$map[$sum], $i];
            }
+
         }
 
     }
