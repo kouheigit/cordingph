@@ -8,13 +8,12 @@ function twoSum($nums, $target) {
         // 必要な補完数値を計算
         $complement = $target - $nums[$i];
 
-        
+
         // 補完数値が連想配列のキーとして存在するかチェック
         //
 
         if (isset($map[$complement])) {
             // 存在する場合、解を返す
-
             return [$map[$complement], $i];
 
         }
@@ -33,13 +32,5 @@ $target1 = 9;
 $result1 = twoSum($nums1, $target1);
 print_r($result1); // [0, 1]
 
-$nums2 = [3, 2, 4];
-$target2 = 6;
-$result2 = twoSum($nums2, $target2);
-print_r($result2); // [1, 2]
 
-$nums3 = [3, 3];
-$target3 = 6;
-$result3 = twoSum($nums3, $target3);
-print_r($result3); // [0, 1]
 ?>
