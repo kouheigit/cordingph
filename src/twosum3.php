@@ -8,8 +8,9 @@ class twoSum3{
            $sum =  $target - $num[$i];
 
            if(isset($map[$sum])) {
-               var_dump($map[$sum]);
-               var_dump($i);
+               print("ターゲットー配列の値の数値=,$map[$sum]");
+               echo"<BR>";
+               print("出力された配列の値=,$i");
                die;
                return [$map[$sum], $i];
 
