@@ -5,12 +5,12 @@ class twoSum3{
         $map = [];
         for($i=0; $i<count($num); $i++){
            $sum =  $target - $num[$i];
+
            if(isset($map[$sum])) {
                return [$map[$sum], $i];
            }
             $map[$num[$i]] = $i;
         }
-        die;
         return[];
     }
 }
