@@ -10,6 +10,7 @@ class twoSum3{
            }
             $map[$num[$i]] = $i;
         }
+        die;
         return[];
     }
 }
