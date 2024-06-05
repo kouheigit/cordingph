@@ -8,8 +8,7 @@ function twoSum($nums, $target) {
         // 必要な補完数値を計算
         $complement = $target - $nums[$i];
 
-        var_dump($complement);
-        die;
+        
         // 補完数値が連想配列のキーとして存在するかチェック
         //
 
