@@ -6,7 +6,6 @@ class twoSum3{
         for($i=0; $i<count($num); $i++){
 
            $sum =  $target - $num[$i];
-
            if(isset($map[$sum])) {
                print("ターゲットー配列の値の数値=,$map[$sum]");
                echo"<BR>";
