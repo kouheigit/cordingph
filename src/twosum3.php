@@ -8,7 +8,11 @@ class twoSum3{
            $sum =  $target - $num[$i];
 
            if(isset($map[$sum])) {
+               var_dump($map[$sum]);
+               var_dump($i);
+               die;
                return [$map[$sum], $i];
+
            }
             $map[$num[$i]] = $i;
         }
