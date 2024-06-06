@@ -11,8 +11,7 @@ class twoSum3 {
 
             $complement = $target - $nums[$i];
 
-
-
+            
             if (isset($map[$complement])) {
 
                 return [$map[$complement], $i];
