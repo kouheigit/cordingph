@@ -4,27 +4,24 @@ class twoSum3 {
     public function method($nums, $target) {
 
         $map = [];
-        $syamu = [];
-
 
         for ($i = 0; $i < count($nums); $i++) {
 
+            /*
             $complement = $target - $nums[$i];
 
-            
+
             if (isset($map[$complement])) {
 
                 return [$map[$complement], $i];
-            }
+            }*/
 
-            $map[$nums[$i]] = $i;
-
-           // var_dump($map[$nums[$i]]);
+            $map[] = $nums[$i];
+           // $map[$nums[$i]] = $i;
 
         }
-
+        print_r($map);
         return [];
-
     }
 
 }
