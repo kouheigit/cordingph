@@ -19,7 +19,7 @@ class twoSum3 {
             }
 
             $map[$nums[$i]] = $i;
-            var_dump($map[$nums[$i]]);
+           // var_dump($map[$nums[$i]]);
 
         }
 
