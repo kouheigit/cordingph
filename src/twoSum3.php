@@ -27,3 +27,11 @@ class twoSum3 {
         return [];
     }
 }
+$twoSum3 = new twoSum3();
+$answer = $twoSum3->method([5,4,6,7],10);
+print_r($answer);
+/*
+$twoSum = new twoSum();
+$answer = $twoSum->Sum([1,2,3]);
+echo $answer;
+*/
