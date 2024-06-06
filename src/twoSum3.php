@@ -17,14 +17,16 @@ class twoSum3 {
                 return [$map[$complement], $i];
             }
 
-
             $map[$nums[$i]] = $i;
+            var_dump($map);
+
         }
 
-
         return [];
+
     }
+
 }
 $twoSum3 = new twoSum3();
-$answer = $twoSum3->method([5,4,6,7],10);
+$answer = $twoSum3->method([5,3,2,4,6],10);
 print_r($answer);
