@@ -4,6 +4,7 @@ class twoSum3 {
     public function method($nums, $target) {
 
         $map = [];
+      
 
 
         for ($i = 0; $i < count($nums); $i++) {
